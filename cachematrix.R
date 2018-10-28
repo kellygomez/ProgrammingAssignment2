@@ -1,6 +1,6 @@
 ## i = inverse matrix, x= the matrix.
 
-## This function set and gets the matrix; and set and gets the inverse
+## This function sets and gets the matrix; and set and gets the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function calculate the inverse of the matrix if it has not been calculate
+## This function calculates the inverse of the matrix if it has not been calculated
 # if it is calculated returns the inverse
 
 cacheSolve <- function(x, ...) {
